@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "720077190368",
+    "project_id": "pharmacy-login-b4df3",
+    "storage_bucket": "pharmacy-login-b4df3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720077190368:android:9f3752b153f9b70de64c85",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720077190368-m07b815culp6h3b2s7kg4ovgin5jf25m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXyz0LLgHrufiWxtCybJKZb6-gv73lR1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720077190368-m07b815culp6h3b2s7kg4ovgin5jf25m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720077190368:android:83a00842f02ec648e64c85",
+        "android_client_info": {
+          "package_name": "com.example.pharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720077190368-m07b815culp6h3b2s7kg4ovgin5jf25m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXyz0LLgHrufiWxtCybJKZb6-gv73lR1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720077190368-m07b815culp6h3b2s7kg4ovgin5jf25m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
