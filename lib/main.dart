@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:pharmacy/onboarding/onborading.dart';
 import 'package:pharmacy/products_detail/product1.dart';
+import 'package:pharmacy/screen/Categories/category_new.dart';
+import 'package:pharmacy/screen/CheckOut/check_out_form.dart';
 import 'package:pharmacy/screen/homepage/homepage.dart';
+import 'package:pharmacy/screen/setting/setting_main_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,7 +17,6 @@ Future main() async {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key, required this.showHome}) : super(key: key);
   final bool showHome;
-
 
   @override
   Widget build(BuildContext context) {

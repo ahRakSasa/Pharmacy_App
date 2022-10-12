@@ -5,6 +5,7 @@ import 'package:pharmacy/models/PopularProduct_model/skincare_page_model.dart';
 import 'package:pharmacy/onboarding/onborading.dart';
 import 'package:pharmacy/products_detail/product1.dart';
 import 'package:pharmacy/screen/BottomNavigation/bottom_navigationbar.dart';
+import 'package:pharmacy/screen/Categories/category_new.dart';
 import 'package:pharmacy/screen/Populare_Product/popular_product.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../components/colors.dart';
@@ -28,10 +29,7 @@ class HomePageScreen extends StatefulWidget {
 }
 
 class _HomePageScreenState extends State<HomePageScreen> {
-  //int index = 2;
-
-  //int currentIndex = 0;
-  int _currentIndex = 0;
+  int _currentIndex = 2;
   final PageController controller = PageController();
 
   @override
@@ -190,11 +188,9 @@ class _HomePageScreenState extends State<HomePageScreen> {
       itemCount: categoriesList.length,
       shrinkWrap: true,
       primary: false,
-      
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 1,
         childAspectRatio: 30 / 6,
-        
       ),
       itemBuilder: (context, index) {
         final CategoryModel category_product = categoriesList[index];

@@ -11,7 +11,7 @@ class BottomNavigationBarPage extends StatefulWidget {
 }
 
 class _BottomNavigationBarPageState extends State<BottomNavigationBarPage> {
-  int index = 0;
+  int index = 2;
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -29,7 +29,7 @@ class _BottomNavigationBarPageState extends State<BottomNavigationBarPage> {
         },
       ),
       InkWell(
-        child: const Icon(Icons.favorite, size: 30),
+        child: const Icon(Icons.settings, size: 30),
         onTap: () {
           Navigator.push(
               context, MaterialPageRoute(builder: (context) => Product1More()));
@@ -50,7 +50,7 @@ class _BottomNavigationBarPageState extends State<BottomNavigationBarPage> {
         },
       ),
       InkWell(
-        child: const Icon(Icons.list, size: 30),
+        child: const Icon(Icons.add_shopping_cart,size: 30),
         onTap: () {
           Navigator.push(
             context,
